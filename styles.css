@@ -1,0 +1,65 @@
+/********* main body ********/
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Outfit', sans-serif;
+}
+.main{
+    margin: 2em auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+/********* Nutrients Section Styles ********/
+.nutrients {
+    display: flex;
+    flex-direction: column;
+}
+.nutrients > div > div{
+    width: 100%;
+    height: 100%;
+}
+.nutrients > div{
+    display: flex;
+    gap: 20%;
+    padding: 20px;
+}
+.nutrients>div>div:nth-child(2){
+    color: hsl(332, 51%, 32%);
+    font-weight: bolder;
+   
+}
+/********* horizontal line ********/
+hr{
+    width: 100%;
+    color:hsl(30, 18%, 87%);
+}
+
+.rice img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   overflow: hidden;
+   border-radius: 20px;
+}
+.prepare-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.prepare-time > ul > li> span{
+    font-weight: bolder;
+}
+li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+li{
+    font-size: 15px;
+}
+h1, h2, h3{
+    color: hsl(332, 51%, 32%);
+    font-family: 'Young Serif', serif;
+}
